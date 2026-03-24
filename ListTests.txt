@@ -28,9 +28,105 @@ Define tests for the 22 change scenarios, in addition to the 3 given as examples
     size() returns 0
     toString returns "[]"
 2) [] -> addToFront(A) -> [A]
+  Tests:
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws IndexOutOfBoundsException
+    removeFirst() throws no Exception
+    removeLast() throws Exception
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) throws no Exception
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns A
+    indexOf(X) returns -1
+    first() returns A
+    last() returns A
+    contains(X) returns false
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
 3) [] -> addToRear(A) -> [A]
+  Tests:
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws IndexOutOfBoundsException
+    removeFirst() throws no Exception
+    removeLast() throws Exception
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) throws no Exception
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns A
+    indexOf(X) returns -1
+    first() returns A
+    last() returns A
+    contains(X) returns false
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
 4) [] -> add(A) -> [A]
+  Tests:
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws IndexOutOfBoundsException
+    removeFirst() throws no Exception
+    removeLast() throws Exception
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) throws no Exception
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns A
+    indexOf(X) returns -1
+    first() returns A
+    last() returns A
+    contains(X) returns false
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
 5) [] -> add(0,A) -> [A]
+  Tests:
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws IndexOutOfBoundsException
+    removeFirst() throws no Exception
+    removeLast() throws Exception
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) throws no Exception
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns A
+    indexOf(X) returns -1
+    first() returns A
+    last() returns A
+    contains(X) returns false
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
 6) [A] -> addToFront(B) -> [B,A]
   Tests:
     addToFront(X) throws no Exceptions
